@@ -1,4 +1,4 @@
-const accentButton = document.getElementById('accent-button');
+const accentButton = document.getElementById('accent-btn');
 const dropdownMenu = document.getElementById('myDropdown');
 accentButton.onclick = function () {
   dropdownMenu.classList.toggle('show');
