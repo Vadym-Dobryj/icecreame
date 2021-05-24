@@ -5,3 +5,12 @@
     padding-left: 0;
   }
 }
+
+.gallery__container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-image {
+  max-width: none;
+}
