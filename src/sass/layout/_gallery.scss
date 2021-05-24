@@ -12,5 +12,7 @@
 }
 
 .gallery-image {
-  max-width: none;
+  @media screen and (min-width: 1280px) {
+    max-width: none;
+  }
 }
