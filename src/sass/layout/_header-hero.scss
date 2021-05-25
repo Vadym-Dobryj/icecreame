@@ -43,7 +43,7 @@ transform: scale(1.1);
   
   .cover {
     background-color: $main-bg-color;
-    margin-bottom: 121px;
+=
   }
   
   .hidden {
@@ -513,10 +513,7 @@ height: 410px;
       top: 123px;
       border-bottom: 1px solid #E18298;
     }
-    .cover {
 
-      margin-bottom: 122px;
-    }
     .is-open {
       transform: translateY(0) translateX(0%);
       z-index: 101;
@@ -1100,10 +1097,7 @@ height: 410px;
       background-color: $main-color;
       cursor: pointer;
     }
-    .cover {
-
-      margin-bottom: 126px;
-    }
+=
     .milk-img {
       display: flex;
       padding-bottom: 72px;
