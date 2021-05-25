@@ -67,7 +67,7 @@ transform: scale(1.1);
     transition: transform 500ms cubic-bezier(0, 0, 0, 0.77);
     visibility: hidden;
     opacity: 0;
-
+    transition: 500ms;
   }
   
   .border-two {
@@ -502,6 +502,7 @@ height: 410px;
       padding: 60px 0px;
       transform: translateY(-100%) translateY(-50%);
       transition: transform 500ms cubic-bezier(0, 0, 0, 0.77);
+      transition: 500ms;
     }
   
     .border-two {
@@ -1294,6 +1295,7 @@ height: 557px;
     }
 .mobil-menu{
     visibility: hidden;
+    transition: 500ms;
 }
 .befor-li::before {
   content: "";
