@@ -132,7 +132,7 @@ opacity: 1;
     visibility: hidden;
     opacity: 0;
   }
-  
+
   .mobil-menu-cloth-btn {
     position: absolute;
     top: 25px;
@@ -329,7 +329,7 @@ cursor: pointer;
     line-height: 1.25;
     width: 61.2px;
     height: 24px;
-    color: $main-color;
+
     background-color: $title-color;
     border-radius: 20px;
     cursor: pointer;
@@ -341,12 +341,15 @@ cursor: pointer;
 &:hover,
 &:focus {
     background-color: $main-color;
-    color: $title-color;
+
     transform: scale(1.2);
     background-color: #C7133E;
   }
   }
-  
+  .base__button-2 {
+    color: $main-color;
+    
+  }
   .base__button-two {
     cursor: pointer;
     transition: 250ms;
@@ -354,7 +357,7 @@ cursor: pointer;
     height: 24px;
     border-radius: 20px;
     border: none;
-    color: $title-color;
+  
     background-color: $main-color;
     font-weight: 400;
     font-size: 8px;
@@ -364,7 +367,9 @@ cursor: pointer;
     transform: scale(1.2);
 }
   }
-  
+  .base__button-two-2 {
+    color: $title-color;
+  }
   .milk-img {
     display: flex;
     padding-bottom: 72px;
@@ -670,10 +675,7 @@ height: 410px;
       transition: 250ms
     }
   
-    .base__button-two:hover,
-  .base__button-two:focus {
-      background: #ECEBEB;
-    }
+
   
     .size {
       width: 124px;
@@ -827,11 +829,7 @@ height: 410px;
       margin-top: 26px;
       margin-right: 8px;    
       
-&:hover,
-&:focus {
-      background-color: #ffffff;
 
-    }
     }
 
     .base__button-two {
