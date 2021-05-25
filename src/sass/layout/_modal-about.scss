@@ -1,4 +1,5 @@
 .backdrop {
+  z-index: 1000;
   opacity: 1;
   position: fixed;
   top: 0;
@@ -16,8 +17,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1) rotate(360deg);
+  height: 96vh;
   max-width: 500px;
   max-height: 550px;
+  border-radius: 22px;
 
   background-color: #e17992;
   padding: 20px;
