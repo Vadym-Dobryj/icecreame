@@ -13,9 +13,10 @@
     outline: 0;
     outline-offset: 0;
   }
-  .cover{
-    margin-bottom: 121px;
-}
+  .header-btn-div {
+    display: none;
+  }
+
   .mobil-btn {
     margin: 0 auto;
     width: 186px;
@@ -27,7 +28,7 @@
     border-radius: 22px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 1.31;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +73,7 @@ transform: scale(1.1);
   .border-two {
     font-weight: 700;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.28;
     margin-right: 35px;
     display: flex;
     align-items: center;
@@ -98,7 +99,7 @@ opacity: 1;
   .border {
     font-weight: 700;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.28;
     margin-right: 35px;
     display: flex;
     align-items: center;
@@ -139,16 +140,9 @@ opacity: 1;
   }
   
   .svg-burger {
-    margin-left: 45px;
-    margin-top: 3px;
-    position: absolute;
+
     width: 20px;
     height: 12px;
-    z-index: 101;
-    top: 33%;
-    right: 23%;
-    bottom: 20%;
-    left: 70%;
     cursor: pointer;
   }
   
@@ -180,7 +174,7 @@ transition: 250ms;
     width: 124px;
     font-weight: 400;
     font-size: 8px;
-    line-height: 12px;
+    line-height: 1.3;
     margin-bottom: 5px;
   }
   
@@ -205,7 +199,7 @@ transition: 250ms;
     color: $title-color;
     font-weight: 700;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 1.31;
     margin-right: 35px;
     cursor: pointer;
   }
@@ -264,7 +258,7 @@ transition: 250ms;
   .navigation__class {
     font-weight: 700;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 1.31;
     margin-right: 35px;
     display: flex;
     align-items: center;
@@ -291,7 +285,7 @@ cursor: pointer;
   .hero-title-span {
     color: $title-color;
     font-size: 34px;
-    line-height: 32px;
+    line-height: 0.94;
     letter-spacing: 0.04em;
   }
   
@@ -301,7 +295,7 @@ cursor: pointer;
     font-family: "Titan One";
     font-weight: normal;
     font-size: 22px;
-    line-height: 25px;
+    line-height: 1.13;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: $main-color;
@@ -320,7 +314,7 @@ cursor: pointer;
   .base__button {
     font-weight: 400;
     font-size: 8px;
-    line-height: 10px;
+    line-height: 1.25;
     width: 61.2px;
     height: 24px;
     color: $main-color;
@@ -352,7 +346,7 @@ cursor: pointer;
     background-color: $main-color;
     font-weight: 400;
     font-size: 8px;
-    line-height: 10px;
+    line-height: 1.25;
     &:hover,
 &:focus {
     transform: scale(1.2);
@@ -369,7 +363,7 @@ cursor: pointer;
     height: 78px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.42;
     color: $main-color;
     margin-top: 95px;
     margin-left: 30px;
@@ -389,7 +383,7 @@ cursor: pointer;
   
   .bottum-section-hero {
     display: flex;
-    justify-content: space-around;
+
     margin-left: -9px;
     margin-top: 1px;
   }
@@ -410,7 +404,7 @@ cursor: pointer;
     font-family: "Titan One";
     font-weight: 400;
     font-size: 28px;
-    line-height: 32px;
+    line-height: 1.14;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: $title-color;
@@ -419,7 +413,7 @@ cursor: pointer;
   .number-hero__under {
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.28;
     font-size: 8px;
     line-height: 10px;
     color: $main-color;
@@ -445,11 +439,11 @@ cursor: pointer;
     z-index: 8;
     right: 31%;
     transition: 500ms;
-    top: 5.2%;
+    top: 8.2%;
     left: 38%;
     bottom: 0px;
-    width: 171px;
-    height: 410px;
+width: 171px;
+height: 410px;
   }
   
   
@@ -461,6 +455,7 @@ cursor: pointer;
     background-color: $main-bg-color;
     padding-bottom: 172px;
     padding-top: 108px;
+    height: 446px;
 
   }
   
@@ -476,7 +471,7 @@ cursor: pointer;
       border-radius: 22px;
       font-weight: 700;
       font-size: 16px;
-      line-height: 21px;
+      line-height: 1.31;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -500,7 +495,7 @@ cursor: pointer;
     .border-two {
       font-weight: 700;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 1.28;
       margin-right: 35px;
       display: flex;
       align-items: center;
@@ -525,7 +520,7 @@ cursor: pointer;
     .border {
       font-weight: 700;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 1.28;
       margin-right: 35px;
       display: flex;
       align-items: center;
@@ -586,12 +581,47 @@ cursor: pointer;
       width: 168px;
       height: 133px;
     }
-  
+    .befor-li::before {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    right: 1%;
+    }
+    .bottum-section-hero{
+      position: relative;
+    }
+    .bottum-section-hero::after {
+      position: absolute;
+      bottom: -24px;
+      right: 0;
+      z-index: 1;
+      display: block;
+      width: 168px;
+      height: 133px;
+      content: "";
+      background-image: url(../images/hero-header/desktop/slider-pic41.png);
+      background-size: cover;
+    }
+    .bottum-section-hero::before {
+     position: absolute;
+      bottom: 0px;
+    left: 0;
+      z-index: 1;
+      display: block;
+      width: 124px;
+      height: 126px;
+      content: "";
+      background-image: url(../images/hero-header/desktop/slider-pic51.png);
+      background-size: cover;
+    }
     .about-hero p {
       width: 124px;
       font-weight: 400;
       font-size: 8px;
-      line-height: 12px;
+      line-height: 1.5;
       margin-bottom: 5px;
     }
   
@@ -615,7 +645,7 @@ cursor: pointer;
       color: #D41443;
       font-weight: 700;
       font-size: 16px;
-      line-height: 21px;
+      line-height: 1.31;
       margin-right: 35px;
       cursor: pointer;
     }
@@ -642,15 +672,13 @@ cursor: pointer;
       border-radius: 22px;
       font-weight: 700;
       font-size: 16px;
-      line-height: 21px;
+      line-height: 1.31;
       display: flex;
       justify-content: center;
       align-items: center;
       color: #D41443;
     }
-    .cover{
-        margin-bottom: 122px;
-    }
+
     .milk__img {
       display: block;
       margin-top: 23px;
@@ -660,7 +688,9 @@ cursor: pointer;
     .about-hero {
       display: block;
       padding-top: 63px;
-      margin-left: -169px;
+      padding-left: 123px;
+
+      
     
       color: #ffffff;
     }
@@ -694,11 +724,13 @@ cursor: pointer;
       background: #ECEBEB;
       transform: scale(1.1);
     }
-  
+    .header-btn-div{
+      display: block;
+    }
     .navigation__class {
       font-weight: 700;
       font-size: 16px;
-      line-height: 21px;
+      line-height: 1.31;
       margin-right: 35px;
       display: flex;
       align-items: center;
@@ -723,7 +755,7 @@ cursor: pointer;
     .hero-title-span {
       color: #d41443;
       font-size: 34px;
-      line-height: 32px;
+      line-height: 0.94;
       letter-spacing: 0.04em;
     }
   
@@ -733,7 +765,7 @@ cursor: pointer;
       font-family: "Titan One";
       font-weight: normal;
       font-size: 22px;
-      line-height: 25px;
+      line-height: 1.13;
       letter-spacing: 0.04em;
       text-transform: uppercase;
       color: #FFFFFF;
@@ -751,7 +783,7 @@ cursor: pointer;
     .base__button {
       font-weight: 400;
       font-size: 8px;
-      line-height: 10px;
+      line-height: 1.25;
       width: 61.2px;
       height: 24px;
       color: #ffffff;
@@ -781,7 +813,7 @@ cursor: pointer;
       background-color: #ffffff;
       font-weight: 400;
       font-size: 8px;
-      line-height: 10px;
+      line-height: 1.25;
     }
   
     .milk-img {
@@ -794,7 +826,7 @@ cursor: pointer;
       height: 78px;
       font-weight: 400;
       font-size: 14px;
-      line-height: 20px;
+      line-height: 1.42;
       color: #FFFFFF;
       margin-top: 95px;
       margin-left: 30px;
@@ -814,7 +846,7 @@ cursor: pointer;
   
     .bottum-section-hero {
       display: flex;
-      justify-content: space-around;
+
       margin-left: -9px;
       margin-top: 1px;
     }
@@ -838,7 +870,7 @@ cursor: pointer;
       font-family: "Titan One";
       font-weight: 400;
       font-size: 28px;
-      line-height: 32px;
+      line-height: 1.14;
       letter-spacing: 0.04em;
       text-transform: uppercase;
       color: #D41443;
@@ -847,7 +879,7 @@ cursor: pointer;
     .number-hero__under {
       font-weight: 400;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 1.28;
       font-size: 8px;
       line-height: 10px;
       color: #FFFFFF;
@@ -873,7 +905,7 @@ cursor: pointer;
       z-index: 8;
       right: 31%;
       transition: 500ms;
-      top: -4.8%;
+      top: -7.8%;
       left: 47%;
       bottom: 0px;
       width: 143px;
@@ -890,6 +922,7 @@ cursor: pointer;
         padding-top: 1px;
         margin: 0 auto;
         max-width: 1280px;
+        height: 312px;
     }
   }
   @media screen and (min-width: 1280px) {
@@ -912,7 +945,7 @@ cursor: pointer;
       color: #D41443;
       font-weight: 700;
       font-size: 16px;
-      line-height: 21px;
+      line-height: 1.31;
       margin-right: 35px;
       cursor: pointer;
     }
@@ -932,7 +965,7 @@ cursor: pointer;
       border-radius: 22px;
       font-weight: 700;
       font-size: 16px;
-      line-height: 21px;
+      line-height: 1.31;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -970,7 +1003,7 @@ cursor: pointer;
     .navigation__class {
       font-weight: 700;
       font-size: 16px;
-      line-height: 21px;
+      line-height: 1.31;
       margin-right: 35px;
       display: flex;
       align-items: center;
@@ -995,7 +1028,7 @@ cursor: pointer;
     .hero-title-span {
       color: #d41443;
       font-size: 58px;
-      line-height: 52px;
+      line-height: 0.89;
       letter-spacing: 0.04em;
     }
   
@@ -1006,7 +1039,7 @@ cursor: pointer;
       font-style: normal;
       font-weight: normal;
       font-size: 38px;
-      line-height: 44px;
+      line-height: 1.15;
       letter-spacing: 0.04em;
       text-transform: uppercase;
       color: #FFFFFF;
@@ -1030,7 +1063,7 @@ cursor: pointer;
       cursor: pointer;
       transition: 250ms;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 1.28;
       border: none;
       margin-top: 26px;
       margin-right: 15px;    
@@ -1050,7 +1083,7 @@ cursor: pointer;
       border-radius: 20px;
       border: none;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 1.28;
       color: $title-color;
       background-color: $main-color;
       cursor: pointer;
@@ -1066,7 +1099,7 @@ cursor: pointer;
       height: 78px;
       font-weight: 400;
       font-size: 14px;
-      line-height: 20px;
+      line-height: 1.42;
       color: #FFFFFF;
       margin-top: 95px;
       margin-left: 30px;
@@ -1084,8 +1117,9 @@ cursor: pointer;
   
     .bottum-section-hero {
       display: flex;
-      justify-content: space-between;
-      margin-left: -56px;
+
+
+      
       margin-top: 1px;
     }
   
@@ -1105,7 +1139,7 @@ cursor: pointer;
       font-family: "Titan One";
       font-weight: 400;
       font-size: 46px;
-      line-height: 53px;
+      line-height: 1.15;
       letter-spacing: 0.04em;
       text-transform: uppercase;
       color: $title-color;
@@ -1114,7 +1148,7 @@ cursor: pointer;
     .number-hero__under {
       font-weight: 400;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 1.28;
       color: $main-color;
     }
   
@@ -1146,7 +1180,7 @@ transition: 500ms;
       z-index: 100;
       right: 34%;
       transition: 750ms;
-      top: 7%;
+      top: 4.4%;
       width: 236px;
       height: 557px;
     }
@@ -1158,6 +1192,7 @@ transition: 500ms;
       background-color: $main-bg-color;
       padding-bottom: 0px;
       padding-top: 1px;
+      height: 583px;
 
 
     }
@@ -1179,7 +1214,7 @@ transition: 500ms;
     .about-hero {
       display: block;
       padding-top: 100px;
-      margin-left: -192px;
+      padding-left: 187px;
       color: $main-color;
     }
   
@@ -1187,7 +1222,7 @@ transition: 500ms;
       width: 210px;
       font-weight: 400;
       font-size: 14px;
-      line-height: 20px;
+      line-height: 1.42;
     }
   
     .about-hero img {
@@ -1217,8 +1252,41 @@ height: 557px;
 .mobil-menu{
     visibility: hidden;
 }
-.cover{
-    margin-bottom: 126px;
+.befor-li::before {
+  content: "";
+  position: absolute;
+width: 30px;
+height: 30px;
+background: #FFFFFF;
+border-radius: 50%;
+right: 0%;
+}
+.bottum-section-hero{
+  position: relative;
+}
+.bottum-section-hero::after {
+  position: absolute;
+  bottom: -59px;
+  right: 0;
+  z-index: 1;
+  display: block;
+  width: 292px;
+  height: 232px;
+  content: "";
+  background-image: url(../images/hero-header/desktop/slider-pic41.png);
+  background-size: cover;
+}
+.bottum-section-hero::before {
+ position: absolute;
+  bottom: 0px;
+left: 0;
+  z-index: 1;
+  display: block;
+  width: 188px;
+  height: 191px;
+  content: "";
+  background-image: url(../images/hero-header/desktop/slider-pic51.png);
+  background-size: cover;
 }
   }
   
