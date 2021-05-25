@@ -17,7 +17,7 @@
 </button>
 </div>
 <div class="header-btn-div" >
-  <button class="header-btn" type="button">Buy now <span class="btn-svg">></span> </button></div>
+  <button class="header-btn" type="button" data-modal-open>Buy now <span class="btn-svg"></span>></span> </button></div>
 </div>
 
 
@@ -26,7 +26,7 @@
     <img src="./images/hero-header/close.png" alt="">
   </button>
   <div>
-    <button class="mobil-btn" type="button">Buy now <span class="btn-svg">></span> </button></div>
+    <button class="mobil-btn" type="button" data-modal-open>Buy now <span class="btn-svg">></span> </button></div>
   <ul class="mobil-list">
     <li class="list"><a class="border-two link" href="./">Home</a></li>
     <li class="list"><a class="border link" href="#about">About us</a></li>
@@ -107,5 +107,57 @@
 </div>
 
 </div>
+
+
 </section>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+      <button type="button" class="btn-close" data-modal-close>
+          <p>x</p>
+      </button>
+
+      <form action="#" class="modal-form">
+          <p class="title-hero2">Ice cream made with Passion!</p>
+      <label class="form-field">
+          Name
+          <span class="wrapper-icon2">
+          <input type="text" name="user-name" class="modal-form-input">
+          <svg class="icon-form" Width="12" height="12">
+              <use href=""></use>
+          </svg>
+          </span>
+      </label>
+
+      <label class="form-field">
+          Phone Number
+          <span class="wrapper-icon2">        
+              <input type="text" name="user-name" class="modal-form-input" required>
+      <svg class="icon-form" Width="13" height="13">
+          <use href=""></use>
+      </svg>
+  </span>
+      </label>
+
+      <label class="form-field">
+          Mail
+          <span class="wrapper-icon2">
+      <input type="text" name="user-name" class="modal-form-input" required>
+      <svg class="icon-form" Width="15" height="12">
+          <use href=""></use>
+      </svg>
+      </span>
+      </label>
+
+      <label class="form-field">
+          Coments
+      <textarea name="user-message" class="form-message" placeholder="Your Coments"></textarea>
+      </label>
+      
+          <button class="header-btn" type="button" data-modal-open>Buy now <span class="btn-svg"></span> </button>
+      </form>
+
+
+  </div>
+</div>
 <script src="./js/mobil.js"> </script>
+<script> src="./modal.js" </script>
