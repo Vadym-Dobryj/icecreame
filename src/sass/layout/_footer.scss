@@ -5,6 +5,11 @@
 .footer-wrapper {
   @media screen and (min-width: 768px) {
     display: flex;
+    padding-bottom: 91px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 97px;
   }
 }
 
@@ -58,12 +63,12 @@
 
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 2);
-    margin-bottom: 91px;
+    // padding-bottom: 91px;
   }
 
-  @media screen and (min-width: 1280px) {
-    margin-bottom: 97px;
-  }
+  // @media screen and (min-width: 1280px) {
+  //   padding-bottom: 97px;
+  // }
 }
 
 .footer-list {
