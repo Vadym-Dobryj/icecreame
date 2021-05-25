@@ -5,3 +5,14 @@
     padding-left: 0;
   }
 }
+
+.gallery__container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-image {
+  @media screen and (min-width: 1280px) {
+    max-width: none;
+  }
+}
