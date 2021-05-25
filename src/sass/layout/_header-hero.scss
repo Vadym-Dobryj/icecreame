@@ -43,6 +43,7 @@ transform: scale(1.1);
   
   .cover {
     background-color: $main-bg-color;
+    margin-bottom: 121px;
   }
   
   .hidden {
@@ -71,6 +72,8 @@ transform: scale(1.1);
   }
   
   .border-two {
+
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.28;
@@ -508,10 +511,12 @@ height: 410px;
       height: 42px;
       left: 0px;
       top: 123px;
-      cursor: pointer;
       border-bottom: 1px solid #E18298;
     }
-  
+    .cover {
+
+      margin-bottom: 122px;
+    }
     .is-open {
       transform: translateY(0) translateX(0%);
       z-index: 101;
@@ -648,6 +653,13 @@ height: 410px;
       line-height: 1.31;
       margin-right: 35px;
       cursor: pointer;
+
+
+      display: flex;
+      align-items: center;
+      z-index: 8;
+
+      transition: 250ms
     }
   
     .base__button-two:hover,
@@ -1088,7 +1100,10 @@ height: 410px;
       background-color: $main-color;
       cursor: pointer;
     }
-  
+    .cover {
+
+      margin-bottom: 126px;
+    }
     .milk-img {
       display: flex;
       padding-bottom: 72px;
