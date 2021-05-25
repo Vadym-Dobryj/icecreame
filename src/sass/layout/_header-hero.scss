@@ -1342,7 +1342,24 @@ left: 0;
         min-width: 480px
     }
     }
-
+    .header-btn {
+      display: block;
+      width: 159px;
+      height: 44px;
+      border: none;
+      cursor: pointer;
+      transition: 250ms;
+      background: #FFFFFF;
+      border-radius: 22px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.31;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #D41443;
+      margin: 0 auto;
+  }
 .backdrop {
     position: fixed;
     width: 100vw;
