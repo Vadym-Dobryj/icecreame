@@ -43,6 +43,18 @@ closeNewYork.onclick = function (event) {
   dropdownMenu.classList.toggle('show');
 };
 
+const frMyModaдl = document.getElementById('frMyModaдl');
+const baseBtn = document.getElementById('baseBtn');
+const closeFr = document.getElementById('closeFr');
+baseBtn.onclick = function () {
+  frMyModaдl.style.display = 'block';
+};
+
+closeFr.onclick = function (event) {
+  event.stopPropagation();
+  frMyModaдl.style.display = 'none';
+};
+
 window.onclick = function (event) {
   if (event.target == myModal) {
     myModal.style.display = 'none';
@@ -56,4 +68,14 @@ window.onclick = function (event) {
     myModalll.style.display = 'none';
     dropdownMenu.classList.toggle('show');
   }
+  if (event.target == frMyModaдl) {
+    frMyModaдl.style.display = 'none';
+  }
 };
+
+const checkLabel = document.getElementById('checkLabel')
+const border = document.getElementById('border')
+checkLabel.onclick = function() {
+  border.style.backgroundColor = '#d41342'
+  border.style.borderColor = '#d41342'
+}
