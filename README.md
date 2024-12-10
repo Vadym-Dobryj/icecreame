@@ -1,49 +1,20 @@
-# parcel-project-template
+Ice Cream
 
-## Зависимости
+Ice Cream is a multi-page website created by a team as part of a training project. The website showcases responsive design, modern layout, and basic interactive elements.
 
-На компьютере должена быть установлена LTS-версия [Node.js](https://nodejs.org/en/).
+Technologies
+	•	HTML5
+	•	CSS3 (Flexbox, Grid)
+	•	JavaScript
 
-## Перед началом работы
+Features
+	•	Modal window for ordering
+	•	Responsive layout for mobile, tablets, and desktops
+	•	Styled gallery
 
-Один раз на проект установить все зависимости.
+Links
 
-```shell
-npm ci
-```
+Demo Version
 
-### Разработка
-
-Запустить режим разработки.
-
-```shell
-npm run dev
-```
-
-Во вкладке браузера перейти по адресу [http://localhost:1234](http://localhost:1234).
-
-### Деплой
-
-Сборка будет автоматически собирать и деплоить продакшен версию проекта на GitHub Pages, в ветку
-`gh-pages`, каждый раз когда обновляется ветка `main`. Например, после прямого пуша или принятого
-пул-реквеста. Для этого необходимо в файле `package.json` отредактировать поле `homepage` и скрипт
-`build`, заменив `имя_пользователя` и `имя_репозитория` на свои.
-
-```json
-"homepage": "https://имя_пользователя.github.io/имя_репозитория",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /имя_репозитория/"
-},
-```
-
-Через какое-то время живую страницу можно будет посмотреть по адресу указанному в отредактированном
-свойстве `homepage`, например
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
-
-## Файлы и папки
-
-- Все паршалы файлов стилей должны лежать в папке `src/sass` и импортироваться в
-  `src/sass/main.scss`
-- Изображения добавляйте в папку `src/images`, заранее оптимизировав их. Сборщик просто копирует
-  используемые изображения чтобы не нагружать систему оптимизацией картинок, так как на слабых
-  компьютерах это может занять прилично времени.
+Team Members
+	•	Vadym Dobrovytskyi
